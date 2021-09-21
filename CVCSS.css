@@ -1,0 +1,49 @@
+body{
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+#row{
+    display: flex;
+}
+.left{
+    flex-basis:30%;
+}
+.right{
+    flex-basis: 70%;
+}
+img{
+  border-radius: 50%; 
+    height:65%;
+    width: 65%;
+}
+
+hr{
+    position: relative;
+    background-color:steelblue;
+}
+h1,h2{
+    color:steelblue;
+    margin-bottom: 0%;
+    
+}
+
+.upper{
+    height: 50px;
+    background-color: steelblue;
+}
+.other{
+    height: 50px;
+    background-color: white;
+}
+.sameLine{
+    display: flex;
+    flex-direction: row;
+}
+#sameLineRight {
+    padding-left: 25%;
+}
+
+.languagesList{
+    padding: 1px;
+}
